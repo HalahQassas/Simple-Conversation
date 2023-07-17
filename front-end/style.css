@@ -1,0 +1,82 @@
+body {
+	
+	background-size: 1500px 650px;
+	/*background-image: url("bk.png");*/ 
+	background-image: url("28.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll
+}
+h2{
+	
+	color:#f6a5aa;
+}
+
+.container {
+	border-radius: 5px; 
+	background-color: #f2f2f2;
+	height: 500px;
+	width: 300px;
+	padding: 5px;
+	margin-left: 510px;
+	margin-top: 30px;
+}
+
+#chat{
+	height:330px;
+	width: 299px;
+	background-color: #fbdbdd;
+	border-radius: 5px;
+	
+	margin-bottom:7px;
+	
+}
+.col-25 {
+  float: left;  
+  width: 29%;
+  margin-right:1px;
+}
+
+.col-75 {
+  float: right;
+  width: 69%;
+  margin-right:1px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#button {
+   width: 100%;
+   background-color: #f6a5aa; 
+   border: none;
+   color: white;
+   padding: 12px 0 12px 0;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 5px;
+   margin-bottom:5px;
+   
+   cursor: pointer;
+}
+
+
+.input{
+  width: 100%;
+  padding: 12px 0 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+#inpFile { /**/
+	color: rgb(0,0,0,0);
+	margin-top: 10px;
+}
+
